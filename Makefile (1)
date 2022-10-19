@@ -1,0 +1,4 @@
+major1: major1.c power.c reverse.c replace.c palindrome.c
+	gcc -Wall -o major1 major1.c power.c reverse.c replace.c palindrome.c -I.
+clean:
+	rm -f *.o major1
